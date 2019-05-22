@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container{
+	width: 1070px;
+	min-height: 1000px;
+	background-image: radial-gradient(#6F5964,#1F0F13);
+}
+
+#header {
+	width: 1070px;
+	min-height:50px;
+	background-color:#E6E6E6;
+	padding: 10px 0px;
+}
+
+#header h1{
+	display: inline-block;
+	font-family: "Comic Sans MS";
+	width: 570px;
+	margin-left: 20px;
+}
+
+#header h2{
+	display: inline-block;
+	font-family: sans-serif;
+}
+
+#portrait{
+	width: 470px;
+	height: auto;
+	margin: 20px 0px 5px 25px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: silver;
+	display: inline-block;
+}
+
+#about{
+	display: inline-block;
+	background-image: linear-gradient(-90deg,#DBCDDA,#FEFEFE);
+	width: 510px;
+	height: 319.2px;
+	vertical-align: top;
+	margin: 20px 0px 5px 25px;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+#about p, a{
+	margin: 10px;
+}
+
+#footer{
+	width: 1070px;
+	min-height:50px;
+	background-color:#E6E6E6;
+	margin-top: 25px;
+	padding: 10px 0px;
+}
+
+#footer p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#footer img{
+	display: inline-block;
+	width: 25px;
+	height: auto;
+	vertical-align: middle;
+	margin: 2px;
+}
+
+.underline{
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.content{
+	width: 320px;
+	height: 440px;
+	background-image: linear-gradient(-90deg,#DBCDDA,#FEFEFE);
+	vertical-align: top;
+	display: inline-block;
+	font-family: sans-serif;
+	margin: 15px 0px 0px 25px;
+}
+
+.content img{
+	width: 320px;
+	height: auto;
+}
+
+.content p{
+	margin:10px;
+}
+
+.tech{
+	width: 320px;
+	height: 230px;
+	background-image: linear-gradient(-90deg,#DBCDDA,#FEFEFE);
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 25px;
+
+}
+
+.tech img{
+	display: inline-block;
+	width: 45px;
+	height: auto;
+	margin: 7px;
+}
+
+.bottom_button{
+	display: block;
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	background-color: #407D61;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+}
+
+.gray{
+	color:white;
+	font-family: sans-serif;
+	height: 30px;
+	background-image: linear-gradient(#ACACB1,#888794,#ACACB1);
+	display: block;
+	padding: 10px;
+}
+
+.gray2{
+	color:white;
+	font-family: sans-serif;
+	height: 25px;
+	background-image: linear-gradient(#ACACB1,#888794,#ACACB1);
+	display: block;
+	padding: 10px;
+}
+
